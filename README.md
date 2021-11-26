@@ -1,2 +1,2 @@
-# challenge_js
-vanilla js challenge
+# Challenge_js
+Vanilla JS Challenge
