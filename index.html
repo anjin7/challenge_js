@@ -9,8 +9,21 @@
   <link rel="stylesheet" href="./src/style.css" />
 </head>
 <body>
-  
+  <form class="hidden" id="login-form">
+    <input
+      required
+      maxlength="15"
+      type="text"
+      placeholder="What is your name?"
+    />
+    <input type="submit" value="Log In" />
+  </form>
+  <h2 class="hidden" id="greeting">Hello</h2>
+  <h2 id="clock">00:00:00</h2>
 
+  <!-- js -->
+  <script src="src/greeting.js"></script>
   <script src="src/clock.js"></script>
+  <script src="src/background.js"></script>
 </body>
 </html>
