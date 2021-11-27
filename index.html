@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Vanilla JS Challenge</title>
-  <link rel="stylesheet" href="./src/style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
   <form class="hidden" id="login-form">
@@ -19,11 +19,15 @@
     <input type="submit" value="Log In" />
   </form>
   <h2 class="hidden" id="greeting">Hello</h2>
-  <h2 id="clock">00:00:00</h2>
+
+  <section class="clock">
+    <h2 id="clock"></h2>
+    <h3 id="time-greeting"></h3>
+  </section>
 
   <!-- js -->
-  <script src="src/greeting.js"></script>
-  <script src="src/clock.js"></script>
-  <script src="src/background.js"></script>
+  <script src="js/greeting.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/background.js"></script>
 </body>
 </html>
