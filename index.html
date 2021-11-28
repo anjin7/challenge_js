@@ -9,22 +9,29 @@
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-  <form class="hidden" id="login-form">
-    <input
-      required
-      maxlength="15"
-      type="text"
-      placeholder="What is your name?"
-    />
-    <input type="submit" value="Log In" />
-  </form>
-  <h2 class="hidden" id="greeting">Hello</h2>
-
-  <section class="clock">
-    <h2 id="clock"></h2>
-    <h3 id="time-greeting"></h3>
+  <section class="main">
+    <div class="container">
+      <div class="greeting">
+        <form class="hidden" id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?" 
+            id="login-input"
+          />
+          <input type="submit" value="Log In" id="login-btn" />
+        </form>
+        <h2 class="hidden" id="greeting">Hello</h2>
+      </div>
+      
+      <div class="clock">
+        <h2 id="clock"></h2>
+        <h3 id="time-greeting"></h3>
+      </div>
+    </div>
   </section>
-
+  
   <section class="todo">
     <form id="todo-form">
       <input type="text" placeholder="Write a To Do and Press Enter">
@@ -32,12 +39,16 @@
     <ul id="todo-list"></ul>
   </section>
   
+<section class="weather" id="weather">
+  <span></span>
+  <span class="city"></span>
+</section>
 
-
+<div id="background" class="background"></div>
   <!-- js -->
   <script src="js/greeting.js"></script>
   <script src="js/clock.js"></script>
-  <!-- <script src="js/background.js"></script> -->
+  <script src="js/background.js"></script>
   <script src="js/todo.js"></script>
   <script src="js/weather.js"></script>
 </body>
