@@ -1,0 +1,19 @@
+{
+  "name": "challenge_js",
+  "description": "Vanilla JS Challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjin91/challenge_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjin91/challenge_js/issues"
+  },
+  "homepage": "https://anjin91.github.io/challenge_js/"
+}
