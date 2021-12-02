@@ -1,7 +1,7 @@
 @import "reset.css";
 
 body, input{
-  font-family: 'Times New Roman', Times, serif; 
+  font-family: 'Times New Roman','Noto Serif KR', Times, serif; 
 }
 
 .hidden{
@@ -101,6 +101,7 @@ body, input{
 .todo li span{
   font-size: 16px;
   margin-right: 10px;
+  font-weight: 500;
 }
 .todo li button{
   position: relative;
