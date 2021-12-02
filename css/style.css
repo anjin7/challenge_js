@@ -19,30 +19,25 @@ body, input{
   width: 100vw;
 }
 .main .container{
-  width: 320px;
   margin: auto;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.container .greeting{
-  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 #login-input{
-  margin: 4px;
-  height: 24px;
-  padding: 0 36px;
-  background-color:rgba(255, 255, 255, 0.1);
+  margin: 4px 0;
+  height: 28px;
+  width: 100%;
+  background-color:rgba(255, 255, 255, 0.0);
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(200, 200, 200);
 }
 #login-input::placeholder{
   text-align: center;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 #login-btn{
@@ -55,26 +50,23 @@ body, input{
   display: none;
 }
 
-
-.container .greeting h2{
-  font-size: 24px;
+.main .container .greeting h2{
+  font-size: 30px;
   font-weight: 500;  
   text-align: center;
 }
 
-.container .clock {
-  padding: 8px;
-}
-.container .clock h2{
+.main .container .clock {  
   text-align: center;
+}
+.main .container .clock h2{
+  margin-top: 16px;
   font-size: 64px;
   font-weight: 500;
 }
-.container .clock h3{
-  margin-top: 8px;  
-  text-align: center;
+.main .container .clock h3{
+  margin-top: 16px;  
   font-size: 28px;
-  padding-top: 8px;
 }
 
 
@@ -88,7 +80,7 @@ body, input{
   padding: 12px 20px;
 }
 .todo input{
-  width: 90%;
+  width: 284px;
   height: 18px;
   padding: 4px 8px;
   background-color:rgba(255, 255, 255, 0.5);
