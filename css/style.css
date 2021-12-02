@@ -1,7 +1,7 @@
 @import "reset.css";
 
 body, input{
-  font-family: 'Times New Roman', Times, serif; 
+  font-family: 'Times New Roman','Noto Serif KR', Times, serif; 
 }
 
 .hidden{
@@ -46,12 +46,13 @@ body, input{
   font-weight: 500;
 }
 #login-btn{
-  margin: 4px;
+  /* margin: 4px;
   margin-left: 14px;
   height: 24px;
   border: none;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5); */
+  display: none;
 }
 
 
@@ -101,6 +102,7 @@ body, input{
 .todo li span{
   font-size: 16px;
   margin-right: 10px;
+  font-weight: 500;
 }
 .todo li button{
   position: relative;
