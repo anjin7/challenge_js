@@ -69,7 +69,10 @@ body, input{
   margin-top: 16px;  
   font-size: 28px;
 }
-
+.main .container .clock h4{
+  margin-top: 16px;  
+  font-size: 24px;
+}
 
 .todo{
   width: 300px;
