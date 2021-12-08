@@ -1,5 +1,6 @@
 const clock = document.querySelector("#clock");
 const timeGreeting = document.querySelector("#time-greeting")
+const calendar = document.querySelector("#calendar");
 
 function getClock() {
   const date = new Date();
@@ -14,7 +15,14 @@ function getClock() {
     timeGreeting.innerText= "Good Afternoon!";
   }else{
     timeGreeting.innerText= "Good Evening!";
-  }
+  };
+
+  const year = date.getFullYear();
+  const month = date.getMonth();
+  const todate = date.getDate();
+  
+  calendar.innerText = `${year}. ${month+1}. ${todate}.`
+
 }
 getClock();
 setInterval(getClock, 1000);
