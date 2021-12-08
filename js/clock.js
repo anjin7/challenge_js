@@ -2,6 +2,8 @@ const clock = document.querySelector("#clock");
 const timeGreeting = document.querySelector("#time-greeting")
 const calendar = document.querySelector("#calendar");
 
+const week = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+
 function getClock() {
   const date = new Date();
   const hours = String(date.getHours()).padStart(2, "0");
@@ -18,10 +20,11 @@ function getClock() {
   };
 
   const year = date.getFullYear();
-  const month = date.getMonth();
+  const month = String(date.getMonth()+1).padStart(2, "0");
   const todate = date.getDate();
+  const day = week[date.getDay()];
   
-  calendar.innerText = `${year}. ${month+1}. ${todate}.`
+  calendar.innerText = `${year}. ${month}. ${todate}. ${day}`
 
 }
 getClock();
