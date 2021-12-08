@@ -1,7 +1,7 @@
 @import "reset.css";
 
 body, input{
-  font-family: 'Times New Roman', 'Lora', 'Noto Serif KR', Times, serif; 
+  font-family: 'Times New Roman', 'Noto Serif KR', Times, serif; 
 }
 
 .hidden{
@@ -22,6 +22,7 @@ body, input{
   margin: auto;
   padding: 12px 20px;
   background-color: rgba(0, 0, 0, 0.15);
+  max-width: 340px;
 }
 
 #login-input{
